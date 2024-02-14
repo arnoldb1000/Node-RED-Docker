@@ -33,5 +33,11 @@
     },
     "engines": {
         "node": ">=14"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
     }
 }
